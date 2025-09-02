@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../components/navbar";
+import {Navbar} from "../components/navbar";
 import { Treatmentlist } from "../featuers/treatments/TreatmentList";
 import AddTreatmentModal from "../featuers/treatments/addtreatmentmodel";
 export default function TreatmentPage() {

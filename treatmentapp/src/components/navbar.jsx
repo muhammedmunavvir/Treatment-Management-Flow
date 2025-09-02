@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 
 import { cleartreatments } from "../featuers/treatments/treatmentSlice";
-export default function Navbar() {
+export  const Navbar=()=> {
   const dispatch = useDispatch();
 
   const handleLogout = () => {
