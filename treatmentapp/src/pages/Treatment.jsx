@@ -13,7 +13,7 @@ export default function TreatmentPage() {
           <h2 className="text-xl font-bold">Your Treatments</h2>
           <button
             onClick={() => setOpen(true)}
-            className="bg-green-500 text-white px-4 py-2 rounded"
+            className="bg-amber-950 text-white px-4 py-2 rounded"
           >
             Add
           </button>

@@ -5,7 +5,7 @@ export const Treatmentlist = () => {
   const dispatch = useDispatch();
 
   return (
-    <ul className="mt-4 border rounded p-2">
+    <ul className="mt-4 rounded p-2">
       {treatments.length === 0 && <p>No treatments added yet.</p>}
       {treatments.map((t) => (
         <li

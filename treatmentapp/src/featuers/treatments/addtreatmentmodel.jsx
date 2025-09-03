@@ -35,7 +35,7 @@ export default function AddTreatmentModal({ onClose }) {
         />
         <div className="flex justify-end gap-2">
           <button onClick={onClose} className="px-3 py-1 border">Cancel</button>
-          <button onClick={handleAdd} className="px-3 py-1 bg-blue-500 text-white">Add</button>
+          <button onClick={handleAdd} className="px-3 py-1 bg-amber-950 text-white">Add</button>
         </div>
       </div>
     </div>

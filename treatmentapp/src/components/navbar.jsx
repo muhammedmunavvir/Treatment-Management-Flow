@@ -10,9 +10,9 @@ export  const Navbar=()=> {
   };
 
   return (
-    <nav className="flex justify-between items-center bg-gray-800 text-white p-4">
+    <nav className="flex justify-between items-center bg-cyan-950 text-white p-4">
       <h1 className="font-bold">Treatment Manager</h1>
-      <button onClick={handleLogout} className="bg-red-500 px-3 py-1 rounded">
+      <button onClick={handleLogout} className="bg-amber-50 px-3 py-1 rounded text-black">
         Logout
       </button>
     </nav>
